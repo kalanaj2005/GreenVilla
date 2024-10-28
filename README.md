@@ -56,6 +56,12 @@
         roomNum       VARCHAR(5),
         cost          INT   
     );
+
+    INSERT INTO guest (name,NIC,email,tp) 
+    VALUES ('W.K.I. Jayawardena',"200409876543","jayawardena@gmail.com","0789876543"),
+	     ('S.G.K. Bandara',"67897656V","bandara@gmail.com","0781234534"),
+	     ('A.B.C. Gamage',"200434567784","gamage@gmail.com","0756789012"),
+	     ('D.E.F. Perera',"200564534543","perera@gmail.com","0756786762");
   ```
 
 

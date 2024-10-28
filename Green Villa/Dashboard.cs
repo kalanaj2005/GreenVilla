@@ -47,5 +47,10 @@ namespace Green_Villa
         {
             Application.Exit();
         }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

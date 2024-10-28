@@ -56,6 +56,7 @@
             this.lblUsername.Size = new System.Drawing.Size(53, 23);
             this.lblUsername.TabIndex = 0;
             this.lblUsername.Text = "User :";
+            this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
             // 
             // lblName
             // 
@@ -222,6 +223,7 @@
             this.Controls.Add(this.picGuest);
             this.Controls.Add(this.panelBack1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

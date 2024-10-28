@@ -67,5 +67,17 @@ namespace Green_Villa
                 }
             }
         }
+
+        private void checkBoxShowPwd_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxShowPwd.Checked)
+            {
+                txtboxPassword.PasswordChar = '\0';
+            }
+            else
+            {
+                txtboxPassword.PasswordChar = '*';
+            }
+        }
     }
 }

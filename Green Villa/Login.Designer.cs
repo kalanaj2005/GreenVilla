@@ -37,6 +37,7 @@
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.checkBoxShowPwd = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,7 +113,7 @@
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.Image = global::Green_Villa.Properties.Resources.exit;
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnExit.Location = new System.Drawing.Point(251, 400);
+            this.btnExit.Location = new System.Drawing.Point(251, 423);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(138, 67);
             this.btnExit.TabIndex = 11;
@@ -135,7 +136,7 @@
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Image = global::Green_Villa.Properties.Resources.user;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLogin.Location = new System.Drawing.Point(34, 400);
+            this.btnLogin.Location = new System.Drawing.Point(34, 423);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnLogin.Size = new System.Drawing.Size(148, 67);
@@ -145,11 +146,24 @@
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // checkBoxShowPwd
+            // 
+            this.checkBoxShowPwd.AutoSize = true;
+            this.checkBoxShowPwd.Location = new System.Drawing.Point(140, 400);
+            this.checkBoxShowPwd.Name = "checkBoxShowPwd";
+            this.checkBoxShowPwd.Size = new System.Drawing.Size(115, 17);
+            this.checkBoxShowPwd.TabIndex = 14;
+            this.checkBoxShowPwd.Text = "Show Password";
+            this.checkBoxShowPwd.UseVisualStyleBackColor = true;
+            this.checkBoxShowPwd.CheckedChanged += new System.EventHandler(this.checkBoxShowPwd_CheckedChanged);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 470);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(427, 486);
+            this.Controls.Add(this.checkBoxShowPwd);
             this.Controls.Add(this.lblSystemname);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.btnExit);
@@ -180,6 +194,7 @@
         private System.Windows.Forms.TextBox txtboxUsername;
         private System.Windows.Forms.Label lblSystemname;
         private System.Windows.Forms.PictureBox picLogo;
+        private System.Windows.Forms.CheckBox checkBoxShowPwd;
     }
 }
 
