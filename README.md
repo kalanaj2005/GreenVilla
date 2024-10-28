@@ -11,10 +11,12 @@
    ![Dashboard](Screenshots/Dashboard.jpg)
  ### Menu
    ![Menu](Screenshots/Menu.jpg)
+   
 ## SETUP
 
 * Open the GreenVilla.sln file from Microsoft Visual Studio and Run the program.
-
+* You must add the correct servername, username, password, tablename in the 'Connection.cs' file.
+* Also you must create the tables with necessary columns.
 * The database needed for the app can be created by the following SQL commands.
   ```
     CREATE DATABASE greenvilla;
