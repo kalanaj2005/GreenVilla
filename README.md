@@ -4,6 +4,13 @@
    
  * This app can be used to manage rooms, guest details and reservations.
 
+## Screenshots
+ ### Login
+   ![Login Screen](Screenshots/Login.jpg)
+ ### Dashboard
+   ![Dashboard](Screenshots/Dashboard.jpg)
+ ### Menu
+   ![Menu](Screenshots/Menu.jpg)
 ## SETUP
 
 * Open the GreenVilla.sln file from Microsoft Visual Studio and Run the program.
@@ -48,3 +55,5 @@
         cost          INT   
     );
   ```
+
+
