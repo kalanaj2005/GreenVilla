@@ -1,6 +1,6 @@
 # Green Villa Hotel Management System
 
- * This is a Hotel Management System Made for a fictional hotel called 'Green Villa'.
+ * This is a Hotel Management System Made for a fictional hotel called 'Green Villa' written in C# and SQL.
    
  * This app can be used to manage rooms, guest details and reservations.
 
