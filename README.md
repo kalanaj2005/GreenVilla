@@ -14,10 +14,10 @@
    
 ## SETUP
 
-* Open the GreenVilla.sln file from Microsoft Visual Studio and Run the program.
-* You must add the correct servername, username, password, tablename in the 'Connection.cs' file.
-* Also you must create the tables with necessary columns.
-* The database needed for the app can be created by the following SQL commands.
+* Download ![GreenVilla](releases/tag/v1.0.0).
+* Or you can use Microsoft Visual Studio to open the project.
+  
+* Create the database. The required database can be created using SQL commands similar to the example code below.
   ```
     CREATE DATABASE greenvilla;
     USE greenvilla;
@@ -63,5 +63,6 @@
 	     ('A.B.C. Gamage',"200434567784","gamage@gmail.com","0756789012"),
 	     ('D.E.F. Perera',"200564534543","perera@gmail.com","0756786762");
   ```
+* You must add the correct servername, username, password, tablename in the 'Connection.cs' file to properly connect to the database.
 
 
