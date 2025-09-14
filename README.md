@@ -14,7 +14,7 @@
    
 ## SETUP
 
-* Download ![GreenVilla](releases/tag/v1.0.0).
+* Download ![GreenVilla](https://github.com/kalanaj2005/GreenVilla/releases/latest).
 * Or you can use Microsoft Visual Studio to open the project.
   
 * Create the database. The required database can be created using SQL commands similar to the example code below.
